@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2? family= Heebo:wght@200;300 & family= Poppins:wght@200 & family= Tiro+Devanagari+Marathi:ital@0; 1 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+#cabeca {
+    height: 15vh;
+}
+
+#corpo {
+    font-size: 100%;
+    background-color: #d3d6d8;
+    min-height: 100vh;
+    position: absolute;
+}
+
+#pe{
+    width: 100%;
+    position: relative;
+    height: 4.3vh;
+    bottom: 0;
+}
+
+.conteudo{
+    min-height: 78vh;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: #3a2d32;
+    box-shadow: 1px 1px 4px;
+}
+
+.cabecalho_imagem{
+    height: 65%;
+}
+
+.conteudo_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    position: relative;
+}
+
+.conteudo_principal_2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteudo_principal_bloco{
+    height: 70vh;
+    width: 1%;
+    margin: 10px;
+    background-color: #3a2d32;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.conteudo_principal_foto_samuel{
+    height: 70vh;
+    display: block;
+    transition: 0.5s;
+}
+
+.conteudo_frases{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+   
+.conteudo_frases_objetivo{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    color: #3a2d32;    
+}
+
+.conteudo_frases_tema{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    color: #3a2d32;    
+}
+
+.conteudo_frases_sobre{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: small;
+    color: #3a2d32;
+}
+
+.conteudo_redes_sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1%;
+    transition: 0.5s;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a2d32;
+    box-shadow: 1px 1px 4px;
+}
+
+.rodape_conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    color: #d3d6d8;
+}
+
+@media screen and (min-width:350px) and (max-width: 835px) {
+
+    .conteudo_principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5%;
+        gap: 10px;
+    }
+
+    .conteudo_principal_bloco{
+        display: block;
+        height: 5px;
+        width: 85%;
+        transition: 0.5s;
+    }
+    
+    .conteudo_principal_foto_samuel{
+        height: 50vh;
+        transition: 0.5s;
+    }
+
+    .quebrar_texto_principal{
+        display: none;
+    }
+
+    .conteudo_frases, .conteudo_frases_objetivo, .conteudo_frases_sobre{
+        text-align: center;
+    }
+
+    .conteudo_redes_sociais{
+        transition: 0.5s;
+    }
+    
+}
+
+@media screen and (min-width:835px) and (max-width: 910px){
+
+    .conteudo_principal_foto_samuel{
+        height: 60vh;
+        
+    }
+
+    .conteudo_principal_bloco{
+        display: block;
+        transition: 0.5s;
+    }
+
+    .quebrar_texto_principal{
+        display: none;
+    }
+
+    .conteudo_redes_sociais{
+        transition: 0.5s;
+    }
+}
+
