@@ -149,7 +149,7 @@ a:hover{
     }
     
     .conteudo_principal_foto_samuel{
-        height: 50vh;
+        height: 40vh;
         transition: 0.5s;
     }
 
@@ -170,7 +170,7 @@ a:hover{
 @media screen and (min-width:835px) and (max-width: 910px){
 
     .conteudo_principal_foto_samuel{
-        height: 60vh;
+        height: 40vh;
         
     }
 
